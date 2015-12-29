@@ -34,4 +34,6 @@
     knife cookbook site download rsyslog 2.0.0
     knife cookbook site download packagecloud
     knife cookbook site download yum
-    tar zxf *.gz
+
+# Extract cookbooks
+    cat *.gz | tar zxf - -i
