@@ -15,7 +15,7 @@
     fi
     
     if [ ! -d "cookbooks" ]; then
-        mkdir cookbookx
+        mkdir cookbooks
     fi
 
 # Config knife
