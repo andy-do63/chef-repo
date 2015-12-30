@@ -38,6 +38,9 @@
 # Extract cookbooks
     cat *.gz | tar zxf - -i
     
+# Clean up of gz files
+    rm -rf *.gz
+    
 # Execute Chef-Zero
     cd ~/chef-repo
     # sudo chef-client --local-mode --runlist recipe[nginx]
