@@ -5,4 +5,4 @@ license          'All rights reserved'
 description      'Gannett Assignment'
 version          '0.1.0'
 
-depends			 'nginx'
+depends          'nginx'
