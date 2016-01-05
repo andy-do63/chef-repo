@@ -1,0 +1,9 @@
+{
+	"name": "nginxVM",
+	"description": "CentOS 6.7 with nginx Webserver",
+	"json_class": "Chef::Role",
+
+	"run_list": [
+		"recipe[nginx]"
+	]
+}
