@@ -2,6 +2,7 @@
 	Vagrant.configure("2") do |config|
 		config.vm.box = "bento/centos-6.7"
 		config.vm.hostname = "nginxVM-Assignment"
+		config.vm.boot_timeout = "600"
 		# Default IP: 127.0.0.1:2222
 
 		# Turn ON VM GUI Terminal
