@@ -15,5 +15,5 @@ end
 
 describe file('/usr/share/nginx/www/index.html') do
   it { should be_file }
-  its(:content) { should match /Hello, Chef/ }
+  its(:content) { should match /Welcome to nginx/ }
 end
