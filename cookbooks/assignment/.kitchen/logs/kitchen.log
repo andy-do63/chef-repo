@@ -1,3 +1,0 @@
-I, [2016-01-11T15:03:23.357313 #4808]  INFO -- Kitchen: -----> Starting Kitchen (v1.4.2)
-I, [2016-01-11T15:03:31.505848 #4808]  INFO -- Kitchen: -----> Destroying <default-centos-67>...
-I, [2016-01-11T15:03:52.939126 #4808]  INFO -- Kitchen: -----> Kitchen is finished. (0m29.58s)
