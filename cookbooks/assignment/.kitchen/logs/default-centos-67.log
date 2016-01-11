@@ -1,569 +1,5 @@
-I, [2016-01-11T11:19:18.257269 #5308]  INFO -- default-centos-67: -----> Creating <default-centos-67>...
-I, [2016-01-11T11:19:33.226125 #5308]  INFO -- default-centos-67: Bringing machine 'default' up with 'virtualbox' provider...
-I, [2016-01-11T11:19:39.170465 #5308]  INFO -- default-centos-67: ==> default: Importing base box 'opscode-centos-6.7'...
-I, [2016-01-11T11:21:43.552580 #5308]  INFO -- default-centos-67: [KProgress: 10%[KProgress: 20%[KProgress: 30%[KProgress: 40%[KProgress: 60%[KProgress: 70%[KProgress: 80%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
-I, [2016-01-11T11:21:48.165843 #5308]  INFO -- default-centos-67: ==> default: Setting the name of the VM: kitchen-assignment-default-centos-67_default_1452529308063_83881
-I, [2016-01-11T11:21:52.435088 #5308]  INFO -- default-centos-67: ==> default: Clearing any previously set network interfaces...
-I, [2016-01-11T11:21:52.730105 #5308]  INFO -- default-centos-67: ==> default: Preparing network interfaces based on configuration...
-I, [2016-01-11T11:21:52.730105 #5308]  INFO -- default-centos-67:     default: Adapter 1: nat
-I, [2016-01-11T11:21:53.197131 #5308]  INFO -- default-centos-67: ==> default: Forwarding ports...
-I, [2016-01-11T11:21:53.388142 #5308]  INFO -- default-centos-67:     default: 22 (guest) => 2222 (host) (adapter 1)
-I, [2016-01-11T11:21:54.080182 #5308]  INFO -- default-centos-67: ==> default: Booting VM...
-I, [2016-01-11T11:22:33.278828 #5308]  INFO -- default-centos-67: ==> default: Waiting for machine to boot. This may take a few minutes...
-I, [2016-01-11T11:22:36.887286 #5308]  INFO -- default-centos-67:     default: SSH address: 127.0.0.1:2222
-I, [2016-01-11T11:22:36.887286 #5308]  INFO -- default-centos-67:     default: SSH username: vagrant
-I, [2016-01-11T11:22:36.887286 #5308]  INFO -- default-centos-67:     default: SSH auth method: private key
-I, [2016-01-11T11:23:31.057165 #5308]  INFO -- default-centos-67:     default: Warning: Remote connection disconnect. Retrying...
-I, [2016-01-11T11:23:41.534495 #5308]  INFO -- default-centos-67:     default: Warning: Remote connection disconnect. Retrying...
-I, [2016-01-11T11:23:53.899065 #5308]  INFO -- default-centos-67:     default: 
-I, [2016-01-11T11:23:53.899065 #5308]  INFO -- default-centos-67:     default: Vagrant insecure key detected. Vagrant will automatically replace
-I, [2016-01-11T11:23:53.899065 #5308]  INFO -- default-centos-67:     default: this with a newly generated keypair for better security.
-I, [2016-01-11T11:24:05.400026 #5308]  INFO -- default-centos-67:     default: 
-I, [2016-01-11T11:24:05.400026 #5308]  INFO -- default-centos-67:     default: Inserting generated public key within guest...
-I, [2016-01-11T11:24:07.364275 #5308]  INFO -- default-centos-67:     default: Removing insecure key from the guest if it's present...
-I, [2016-01-11T11:24:08.775954 #5308]  INFO -- default-centos-67:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
-I, [2016-01-11T11:24:10.438666 #5308]  INFO -- default-centos-67: ==> default: Machine booted and ready!
-I, [2016-01-11T11:24:10.439166 #5308]  INFO -- default-centos-67: ==> default: Checking for guest additions in VM...
-I, [2016-01-11T11:24:10.560181 #5308]  INFO -- default-centos-67: ==> default: Setting hostname...
-I, [2016-01-11T11:24:25.216542 #5308]  INFO -- default-centos-67: ==> default: Machine not provisioned because `--no-provision` is specified.
-I, [2016-01-11T11:24:38.689753 #5308]  INFO -- default-centos-67: [SSH] Established
-I, [2016-01-11T11:24:38.690753 #5308]  INFO -- default-centos-67: Vagrant instance <default-centos-67> created.
-I, [2016-01-11T11:24:38.726758 #5308]  INFO -- default-centos-67: Finished creating <default-centos-67> (5m20.43s).
-I, [2016-01-11T11:24:38.727258 #5308]  INFO -- default-centos-67: -----> Converging <default-centos-67>...
-I, [2016-01-11T11:24:38.729758 #5308]  INFO -- default-centos-67: Preparing files for transfer
-I, [2016-01-11T11:24:38.730258 #5308]  INFO -- default-centos-67: Preparing dna.json
-I, [2016-01-11T11:24:38.894779 #5308]  INFO -- default-centos-67: Resolving cookbook dependencies with Berkshelf 4.0.1...
-I, [2016-01-11T11:24:55.545893 #5308]  INFO -- default-centos-67: Removing non-cookbook files before transfer
-I, [2016-01-11T11:24:55.751420 #5308]  INFO -- default-centos-67: Preparing solo.rb
-I, [2016-01-11T11:24:55.988450 #5308]  INFO -- default-centos-67: -----> Installing Chef Omnibus (install only if missing)
-I, [2016-01-11T11:24:56.032455 #5308]  INFO -- default-centos-67: Downloading https://www.chef.io/chef/install.sh to file /tmp/install.sh
-I, [2016-01-11T11:24:56.032955 #5308]  INFO -- default-centos-67: Trying wget...
-I, [2016-01-11T11:24:56.592526 #5308]  INFO -- default-centos-67: Download complete.
-I, [2016-01-11T11:24:57.146597 #5308]  INFO -- default-centos-67: Getting information for chef stable  for el...
-I, [2016-01-11T11:24:57.147097 #5308]  INFO -- default-centos-67: downloading https://omnitruck-direct.chef.io/stable/chef/metadata?v=&p=el&pv=6&m=x86_64
-I, [2016-01-11T11:24:57.147097 #5308]  INFO -- default-centos-67:   to file /tmp/install.sh.2560/metadata.txt
-I, [2016-01-11T11:24:57.154598 #5308]  INFO -- default-centos-67: trying wget...
-I, [2016-01-11T11:24:57.936197 #5308]  INFO -- default-centos-67: url	https://opscode-omnibus-packages.s3.amazonaws.com/el/6/x86_64/chef-12.6.0-1.el6.x86_64.rpm
-I, [2016-01-11T11:24:57.936697 #5308]  INFO -- default-centos-67: md5	8f5686d11c3778c8a61fd50f5020b6e5
-I, [2016-01-11T11:24:57.936697 #5308]  INFO -- default-centos-67: sha256	152e9aeb3c654db19b2e72cc290ec6d92bf6b40e74807c3eb1a0c828f20c99b9
-I, [2016-01-11T11:24:57.988704 #5308]  INFO -- default-centos-67: downloaded metadata file looks valid...
-I, [2016-01-11T11:24:58.161226 #5308]  INFO -- default-centos-67: downloading https://opscode-omnibus-packages.s3.amazonaws.com/el/6/x86_64/chef-12.6.0-1.el6.x86_64.rpm
-I, [2016-01-11T11:24:58.162726 #5308]  INFO -- default-centos-67:   to file /tmp/install.sh.2560/chef-12.6.0-1.el6.x86_64.rpm
-I, [2016-01-11T11:24:58.177228 #5308]  INFO -- default-centos-67: trying wget...
-I, [2016-01-11T11:25:09.730195 #5308]  INFO -- default-centos-67: Comparing checksum with sha256sum...
-I, [2016-01-11T11:25:10.126745 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:25:10.127245 #5308]  INFO -- default-centos-67: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
-I, [2016-01-11T11:25:10.127245 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:25:10.127245 #5308]  INFO -- default-centos-67: You are installing an omnibus package without a version pin.  If you are installing
-I, [2016-01-11T11:25:10.127245 #5308]  INFO -- default-centos-67: on production servers via an automated process this is DANGEROUS and you will
-I, [2016-01-11T11:25:10.127245 #5308]  INFO -- default-centos-67: be upgraded without warning on new releases, even to new major releases.
-I, [2016-01-11T11:25:10.127245 #5308]  INFO -- default-centos-67: Letting the version float is only appropriate in desktop, test, development or
-I, [2016-01-11T11:25:10.127245 #5308]  INFO -- default-centos-67: CI/CD environments.
-I, [2016-01-11T11:25:10.127245 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:25:10.127245 #5308]  INFO -- default-centos-67: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
-I, [2016-01-11T11:25:10.127245 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:25:10.127745 #5308]  INFO -- default-centos-67: Installing chef 
-I, [2016-01-11T11:25:10.127745 #5308]  INFO -- default-centos-67: installing with rpm...
-I, [2016-01-11T11:25:11.225885 #5308]  INFO -- default-centos-67: warning: /tmp/install.sh.2560/chef-12.6.0-1.el6.x86_64.rpm: Header V4 DSA/SHA1 Signature, key ID 83ef826a: NOKEY
-I, [2016-01-11T11:25:18.257277 #5308]  INFO -- default-centos-67: Preparing...                                                            (100%)#                                           (100%)##                                          (100%)###                                         (100%)####                                        (100%)#####                                       (100%)######                                      (100%)#######                                     (100%)########                                    (100%)#########                                   (100%)##########                                  (100%)###########                                 (100%)############                                (100%)#############                               (100%)##############                              (100%)###############                             (100%)################                            (100%)#################                           (100%)##################                          (100%)###################                         (100%)####################                        (100%)#####################                       (100%)######################                      (100%)#######################                     (100%)########################                    (100%)#########################                   (100%)##########################                  (100%)###########################                 (100%)############################                (100%)#############################               (100%)##############################              (100%)###############################             (100%)################################            (100%)#################################           (100%)##################################          (100%)###################################         (100%)####################################        (100%)#####################################       (100%)######################################      (100%)#######################################     (100%)########################################    (100%)#########################################   (100%)##########################################  (100%)########################################### (100%)########################################### [100%]
-I, [2016-01-11T11:25:31.978520 #5308]  INFO -- default-centos-67:    1:chef                                                               (  1%)#                                           (  3%)##                                          (  6%)###                                         (  8%)####                                        ( 10%)#####                                       ( 13%)######                                      ( 15%)#######                                     ( 17%)########                                    ( 19%)#########                                   ( 22%)##########                                  ( 24%)###########                                 ( 26%)############                                ( 28%)#############                               ( 31%)##############                              ( 33%)###############                             ( 35%)################                            ( 38%)#################                           ( 40%)##################                          ( 42%)###################                         ( 44%)####################                        ( 47%)#####################                       ( 49%)######################                      ( 51%)#######################                     ( 53%)########################                    ( 56%)#########################                   ( 58%)##########################                  ( 60%)###########################                 ( 63%)############################                ( 65%)#############################               ( 67%)##############################              ( 69%)###############################             ( 72%)################################            ( 74%)#################################           ( 76%)##################################          ( 78%)###################################         ( 81%)####################################        ( 83%)#####################################       ( 85%)######################################      ( 88%)#######################################     ( 90%)########################################    ( 92%)#########################################   ( 94%)##########################################  ( 97%)########################################### ( 99%)########################################### [100%]
-I, [2016-01-11T11:25:37.014659 #5308]  INFO -- default-centos-67: Thank you for installing Chef!
-I, [2016-01-11T11:25:37.482219 #5308]  INFO -- default-centos-67: Transferring files to <default-centos-67>
-I, [2016-01-11T11:25:47.830533 #5308]  INFO -- default-centos-67: Starting Chef Client, version 12.6.0
-I, [2016-01-11T11:25:52.509127 #5308]  INFO -- default-centos-67: Compiling Cookbooks...
-I, [2016-01-11T11:25:52.662646 #5308]  INFO -- default-centos-67: Recipe: ohai::default
-I, [2016-01-11T11:25:52.703151 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:25:52.705152 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:25:53.021692 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:25:53.064697 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:25:53.065197 #5308]  INFO -- default-centos-67:   Recipe: <Dynamically Defined Resource>
-I, [2016-01-11T11:25:53.079699 #5308]  INFO -- default-centos-67:     * cookbook_file[/etc/chef/ohai_plugins/README] action create
-I, [2016-01-11T11:25:53.091701 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:25:53.092701 #5308]  INFO -- default-centos-67:       - update content in file /etc/chef/ohai_plugins/README from none to 775fa7
-I, [2016-01-11T11:25:53.093201 #5308]  INFO -- default-centos-67:       --- /etc/chef/ohai_plugins/README	2016-01-11 16:25:51.873905841 +0000
-I, [2016-01-11T11:25:53.093201 #5308]  INFO -- default-centos-67:       +++ /etc/chef/ohai_plugins/.README20160111-2671-q6zbdl	2016-01-11 16:25:51.871904842 +0000
-I, [2016-01-11T11:25:53.093201 #5308]  INFO -- default-centos-67:       @@ -1 +1,2 @@
-I, [2016-01-11T11:25:53.100202 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:25:53.398240 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:25:53.422243 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:25:53.422243 #5308]  INFO -- default-centos-67:   
-I, [2016-01-11T11:25:53.485251 #5308]  INFO -- default-centos-67: Recipe: ohai::default
-I, [2016-01-11T11:25:53.573762 #5308]  INFO -- default-centos-67:   * ohai[custom_plugins] action reload[2016-01-11T16:25:52+00:00] WARN: Ohai::Config[:plugin_path] is set. Ohai::Config[:plugin_path] is deprecated and will be removed in future releases of ohai. Use ohai.plugin_path in your configuration file to configure :plugin_path for ohai.
-I, [2016-01-11T11:25:53.576762 #5308]  INFO -- default-centos-67: [2016-01-11T16:25:52+00:00] WARN: Ohai::Config[:plugin_path] is set. Ohai::Config[:plugin_path] is deprecated and will be removed in future releases of ohai. Use ohai.plugin_path in your configuration file to configure :plugin_path for ohai.
-I, [2016-01-11T11:25:58.566396 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:25:58.566896 #5308]  INFO -- default-centos-67:     - re-run ohai and merge results into node attributes
-I, [2016-01-11T11:25:58.653407 #5308]  INFO -- default-centos-67: [2016-01-11T16:25:57+00:00] WARN: Cloning resource attributes for service[nginx] from prior resource (CHEF-3694)
-I, [2016-01-11T11:25:58.653907 #5308]  INFO -- default-centos-67: [2016-01-11T16:25:57+00:00] WARN: Previous service[nginx]: /tmp/kitchen/cookbooks/nginx/recipes/package.rb:47:in `from_file'
-I, [2016-01-11T11:25:58.654407 #5308]  INFO -- default-centos-67: [2016-01-11T16:25:57+00:00] WARN: Current  service[nginx]: /tmp/kitchen/cookbooks/nginx/recipes/default.rb:24:in `from_file'
-I, [2016-01-11T11:25:58.655407 #5308]  INFO -- default-centos-67:   Converging 19 resources
-I, [2016-01-11T11:25:58.666409 #5308]  INFO -- default-centos-67: Recipe: nginx::ohai_plugin
-I, [2016-01-11T11:25:58.667909 #5308]  INFO -- default-centos-67:  (skipped due to action :nothing)
-I, [2016-01-11T11:25:58.830430 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:25:58.842931 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:25:58.842931 #5308]  INFO -- default-centos-67:     - update content in file /etc/chef/ohai_plugins/nginx.rb from none to 9f7e82
-I, [2016-01-11T11:25:58.842931 #5308]  INFO -- default-centos-67:     --- /etc/chef/ohai_plugins/nginx.rb	2016-01-11 16:25:57.629782342 +0000
-I, [2016-01-11T11:25:58.842931 #5308]  INFO -- default-centos-67:     +++ /etc/chef/ohai_plugins/.nginx.rb20160111-2671-1p35cql	2016-01-11 16:25:57.628781842 +0000
-I, [2016-01-11T11:25:58.842931 #5308]  INFO -- default-centos-67:     @@ -1 +1,67 @@
-I, [2016-01-11T11:25:58.842931 #5308]  INFO -- default-centos-67:     +#
-I, [2016-01-11T11:25:58.843431 #5308]  INFO -- default-centos-67:     +# Author:: Jamie Winsor (<jamie@vialstudios.com>)
-I, [2016-01-11T11:25:58.843431 #5308]  INFO -- default-centos-67:     +#
-I, [2016-01-11T11:25:58.843431 #5308]  INFO -- default-centos-67:     +# Copyright 2012, Riot Games
-I, [2016-01-11T11:25:58.843431 #5308]  INFO -- default-centos-67:     +#
-I, [2016-01-11T11:25:58.843431 #5308]  INFO -- default-centos-67:     +# Licensed under the Apache License, Version 2.0 (the "License");
-I, [2016-01-11T11:25:58.843431 #5308]  INFO -- default-centos-67:     +# you may not use this file except in compliance with the License.
-I, [2016-01-11T11:25:58.843431 #5308]  INFO -- default-centos-67:     +# You may obtain a copy of the License at
-I, [2016-01-11T11:25:58.843431 #5308]  INFO -- default-centos-67:     +#
-I, [2016-01-11T11:25:58.843431 #5308]  INFO -- default-centos-67:     +#     http://www.apache.org/licenses/LICENSE-2.0
-I, [2016-01-11T11:25:58.843431 #5308]  INFO -- default-centos-67:     +#
-I, [2016-01-11T11:25:58.843931 #5308]  INFO -- default-centos-67:     +# Unless required by applicable law or agreed to in writing, software
-I, [2016-01-11T11:25:58.843931 #5308]  INFO -- default-centos-67:     +# distributed under the License is distributed on an "AS IS" BASIS,
-I, [2016-01-11T11:25:58.843931 #5308]  INFO -- default-centos-67:     +# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-I, [2016-01-11T11:25:58.843931 #5308]  INFO -- default-centos-67:     +# See the License for the specific language governing permissions and
-I, [2016-01-11T11:25:58.843931 #5308]  INFO -- default-centos-67:     +# limitations under the License.
-I, [2016-01-11T11:25:58.843931 #5308]  INFO -- default-centos-67:     +#
-I, [2016-01-11T11:25:58.843931 #5308]  INFO -- default-centos-67:     +
-I, [2016-01-11T11:25:58.843931 #5308]  INFO -- default-centos-67:     +provides "nginx"
-I, [2016-01-11T11:25:58.843931 #5308]  INFO -- default-centos-67:     +provides "nginx/version"
-I, [2016-01-11T11:25:58.843931 #5308]  INFO -- default-centos-67:     +provides "nginx/configure_arguments"
-I, [2016-01-11T11:25:58.843931 #5308]  INFO -- default-centos-67:     +provides "nginx/prefix"
-I, [2016-01-11T11:25:58.843931 #5308]  INFO -- default-centos-67:     +provides "nginx/conf_path"
-I, [2016-01-11T11:25:58.844431 #5308]  INFO -- default-centos-67:     +
-I, [2016-01-11T11:25:58.844431 #5308]  INFO -- default-centos-67:     +def parse_flags(flags)
-I, [2016-01-11T11:25:58.844431 #5308]  INFO -- default-centos-67:     +  prefix = nil
-I, [2016-01-11T11:25:58.844431 #5308]  INFO -- default-centos-67:     +  conf_path = nil
-I, [2016-01-11T11:25:58.844431 #5308]  INFO -- default-centos-67:     +
-I, [2016-01-11T11:25:58.844431 #5308]  INFO -- default-centos-67:     +  flags.each do |flag|
-I, [2016-01-11T11:25:58.844431 #5308]  INFO -- default-centos-67:     +    case flag
-I, [2016-01-11T11:25:58.844431 #5308]  INFO -- default-centos-67:     +    when /^--prefix=(.+)$/
-I, [2016-01-11T11:25:58.844431 #5308]  INFO -- default-centos-67:     +      prefix = $1
-I, [2016-01-11T11:25:58.844431 #5308]  INFO -- default-centos-67:     +    when /^--conf-path=(.+)$/
-I, [2016-01-11T11:25:58.844431 #5308]  INFO -- default-centos-67:     +      conf_path = $1
-I, [2016-01-11T11:25:58.844931 #5308]  INFO -- default-centos-67:     +    end
-I, [2016-01-11T11:25:58.844931 #5308]  INFO -- default-centos-67:     +  end
-I, [2016-01-11T11:25:58.844931 #5308]  INFO -- default-centos-67:     +
-I, [2016-01-11T11:25:58.844931 #5308]  INFO -- default-centos-67:     +  [ prefix, conf_path ]
-I, [2016-01-11T11:25:58.844931 #5308]  INFO -- default-centos-67:     +end
-I, [2016-01-11T11:25:58.844931 #5308]  INFO -- default-centos-67:     +
-I, [2016-01-11T11:25:58.844931 #5308]  INFO -- default-centos-67:     +nginx Mash.new unless nginx
-I, [2016-01-11T11:25:58.844931 #5308]  INFO -- default-centos-67:     +nginx[:version]             = nil unless nginx[:version]
-I, [2016-01-11T11:25:58.950945 #5308]  INFO -- default-centos-67:     +nginx[:configure_arguments] = Array.new unless nginx[:configure_arguments]
-I, [2016-01-11T11:25:58.951445 #5308]  INFO -- default-centos-67:     +nginx[:prefix]              = nil unless nginx[:prefix]
-I, [2016-01-11T11:25:58.953445 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:25:58.953945 #5308]  INFO -- default-centos-67:     +
-I, [2016-01-11T11:25:58.953945 #5308]  INFO -- default-centos-67:     +status, stdout, stderr = run_command(:no_status_check => true, :command => "/usr/sbin/nginx -V")
-I, [2016-01-11T11:25:58.954445 #5308]  INFO -- default-centos-67:     +
-I, [2016-01-11T11:25:58.954445 #5308]  INFO -- default-centos-67:     +if status == 0
-I, [2016-01-11T11:25:58.954445 #5308]  INFO -- default-centos-67:     +  stderr.split("\n").each do |line|
-I, [2016-01-11T11:25:58.954445 #5308]  INFO -- default-centos-67:     +    case line
-I, [2016-01-11T11:25:58.954445 #5308]  INFO -- default-centos-67:     +    when /^configure arguments:(.+)/
-I, [2016-01-11T11:25:58.962946 #5308]  INFO -- default-centos-67: +      # This could be better: I'm splitting on configure arguments which removes them and also
-I, [2016-01-11T11:25:58.963946 #5308]  INFO -- default-centos-67:     +      # adds a blank string at index 0 of the array. This is why we drop index 0 and map to
-I, [2016-01-11T11:25:58.964447 #5308]  INFO -- default-centos-67:     +      # add the '--' prefix back to the configure argument.
-I, [2016-01-11T11:25:58.964447 #5308]  INFO -- default-centos-67:     +      nginx[:configure_arguments] = $1.split(/\s--/).drop(1).map { |ca| "--#{ca}" }
-I, [2016-01-11T11:25:58.966947 #5308]  INFO -- default-centos-67:     +
-I, [2016-01-11T11:25:58.967447 #5308]  INFO -- default-centos-67:     +      prefix, conf_path = parse_flags(nginx[:configure_arguments])
-I, [2016-01-11T11:25:58.967447 #5308]  INFO -- default-centos-67:     +
-I, [2016-01-11T11:25:58.967447 #5308]  INFO -- default-centos-67:     +      nginx[:prefix] = prefix
-I, [2016-01-11T11:25:58.967447 #5308]  INFO -- default-centos-67:     +      nginx[:conf_path] = conf_path
-I, [2016-01-11T11:25:58.973948 #5308]  INFO -- default-centos-67:     +    when /^nginx version: nginx\/(\d+\.\d+\.\d+)/
-I, [2016-01-11T11:25:58.974448 #5308]  INFO -- default-centos-67:     +      nginx[:version] = $1
-I, [2016-01-11T11:25:58.974448 #5308]  INFO -- default-centos-67:     +    end
-I, [2016-01-11T11:25:58.974448 #5308]  INFO -- default-centos-67:     +  end
-I, [2016-01-11T11:25:58.978448 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:25:58.978948 #5308]  INFO -- default-centos-67:     - change mode from '' to '0755'
-I, [2016-01-11T11:25:58.978948 #5308]  INFO -- default-centos-67:     - change owner from '' to 'root'
-I, [2016-01-11T11:25:59.154471 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:25:59.156471 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:25:59.168472 #5308]  INFO -- default-centos-67:   * ohai[reload_nginx] action reload[2016-01-11T16:25:57+00:00] WARN: Ohai::Config[:plugin_path] is set. Ohai::Config[:plugin_path] is deprecated and will be removed in future releases of ohai. Use ohai.plugin_path in your configuration file to configure :plugin_path for ohai.
-I, [2016-01-11T11:25:59.181474 #5308]  INFO -- default-centos-67: [2016-01-11T16:25:57+00:00] WARN: Ohai::Config[:plugin_path] is set. Ohai::Config[:plugin_path] is deprecated and will be removed in future releases of ohai. Use ohai.plugin_path in your configuration file to configure :plugin_path for ohai.
-I, [2016-01-11T11:25:59.193976 #5308]  INFO -- default-centos-67: [2016-01-11T16:25:57+00:00] WARN: [DEPRECATION] Plugin at /etc/chef/ohai_plugins/nginx.rb is a version 6 plugin. Version 6 plugins will not be supported in future releases of Ohai. Please upgrade your plugin to version 7 plugin syntax. For more information visit here: docs.chef.io/ohai_custom.html
-I, [2016-01-11T11:25:59.900565 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:25:59.900565 #5308]  INFO -- default-centos-67:     - re-run ohai and merge results into node attributes
-I, [2016-01-11T11:25:59.904566 #5308]  INFO -- default-centos-67: Recipe: ohai::default
-I, [2016-01-11T11:25:59.908066 #5308]  INFO -- default-centos-67:   * remote_directory[/etc/chef/ohai_plugins for cookbook ohai] action nothing (skipped due to action :nothing)
-I, [2016-01-11T11:25:59.910067 #5308]  INFO -- default-centos-67:   * ohai[custom_plugins] action nothing (skipped due to action :nothing)
-I, [2016-01-11T11:25:59.911067 #5308]  INFO -- default-centos-67: Recipe: yum-epel::default
-I, [2016-01-11T11:25:59.934070 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:25:59.994577 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:26:00.008079 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:26:00.008079 #5308]  INFO -- default-centos-67:       - update content in file /etc/yum.repos.d/epel.repo from none to d02c1f
-I, [2016-01-11T11:26:00.008579 #5308]  INFO -- default-centos-67:       --- /etc/yum.repos.d/epel.repo	2016-01-11 16:25:58.798366342 +0000
-I, [2016-01-11T11:26:00.008579 #5308]  INFO -- default-centos-67:       +++ /etc/yum.repos.d/.epel.repo20160111-2671-1k27urr	2016-01-11 16:25:58.796365343 +0000
-I, [2016-01-11T11:26:00.008579 #5308]  INFO -- default-centos-67:       @@ -1 +1,11 @@
-I, [2016-01-11T11:26:00.015080 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:26:00.015080 #5308]  INFO -- default-centos-67:       +# Do NOT modify this file by hand.
-I, [2016-01-11T11:26:00.018580 #5308]  INFO -- default-centos-67:       +
-I, [2016-01-11T11:26:00.019080 #5308]  INFO -- default-centos-67:       +[epel]
-I, [2016-01-11T11:26:00.019080 #5308]  INFO -- default-centos-67:       +name=Extra Packages for Enterprise Linux 6 - $basearch
-I, [2016-01-11T11:26:00.019080 #5308]  INFO -- default-centos-67:       +enabled=1
-I, [2016-01-11T11:26:00.019080 #5308]  INFO -- default-centos-67:       +failovermethod=priority
-I, [2016-01-11T11:26:00.036583 #5308]  INFO -- default-centos-67:       +gpgcheck=1
-I, [2016-01-11T11:26:00.037083 #5308]  INFO -- default-centos-67:       +gpgkey=https://dl.fedoraproject.org/pub/epel/RPM-GPG-KEY-EPEL-6
-I, [2016-01-11T11:26:00.038583 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:26:00.594654 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:26:00.607655 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:26:28.145652 #5308]  INFO -- default-centos-67:     * execute[yum clean metadata epel] action run
-I, [2016-01-11T11:26:28.145652 #5308]  INFO -- default-centos-67:       - execute yum clean metadata --disablerepo=* --enablerepo=epel
-I, [2016-01-11T11:27:37.079406 #5308]  INFO -- default-centos-67:     * execute[yum-makecache-epel] action run
-I, [2016-01-11T11:27:37.079906 #5308]  INFO -- default-centos-67:       - execute yum -q -y makecache --disablerepo=* --enablerepo=epel
-I, [2016-01-11T11:27:37.091407 #5308]  INFO -- default-centos-67:     * ruby_block[yum-cache-reload-epel] action create
-I, [2016-01-11T11:27:37.091407 #5308]  INFO -- default-centos-67:       - execute the ruby block yum-cache-reload-epel
-I, [2016-01-11T11:27:37.095908 #5308]  INFO -- default-centos-67:     * execute[yum clean metadata epel] action nothing (skipped due to action :nothing)
-I, [2016-01-11T11:27:37.099908 #5308]  INFO -- default-centos-67:  (skipped due to action :nothing)
-I, [2016-01-11T11:27:37.101408 #5308]  INFO -- default-centos-67:     * ruby_block[yum-cache-reload-epel] action nothing (skipped due to action :nothing)
-I, [2016-01-11T11:27:37.108409 #5308]  INFO -- default-centos-67:   
-I, [2016-01-11T11:27:37.109409 #5308]  INFO -- default-centos-67: Recipe: nginx::package
-I, [2016-01-11T11:29:51.365958 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:51.369958 #5308]  INFO -- default-centos-67: - install version 1.0.15-12.el6 of package nginx
-I, [2016-01-11T11:29:51.383960 #5308]  INFO -- default-centos-67: Recipe: nginx::ohai_plugin
-I, [2016-01-11T11:29:51.407963 #5308]  INFO -- default-centos-67: [2016-01-11T16:29:50+00:00] WARN: Ohai::Config[:plugin_path] is set. Ohai::Config[:plugin_path] is deprecated and will be removed in future releases of ohai. Use ohai.plugin_path in your configuration file to configure :plugin_path for ohai.
-I, [2016-01-11T11:29:51.442968 #5308]  INFO -- default-centos-67: [2016-01-11T16:29:50+00:00] WARN: Ohai::Config[:plugin_path] is set. Ohai::Config[:plugin_path] is deprecated and will be removed in future releases of ohai. Use ohai.plugin_path in your configuration file to configure :plugin_path for ohai.
-I, [2016-01-11T11:29:51.584486 #5308]  INFO -- default-centos-67: [2016-01-11T16:29:50+00:00] WARN: [DEPRECATION] Plugin at /etc/chef/ohai_plugins/nginx.rb is a version 6 plugin. Version 6 plugins will not be supported in future releases of Ohai. Please upgrade your plugin to version 7 plugin syntax. For more information visit here: docs.chef.io/ohai_custom.html
-I, [2016-01-11T11:29:54.372840 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:54.373340 #5308]  INFO -- default-centos-67:     - re-run ohai and merge results into node attributes
-I, [2016-01-11T11:29:54.377840 #5308]  INFO -- default-centos-67: Recipe: nginx::package
-I, [2016-01-11T11:29:55.572992 #5308]  INFO -- default-centos-67:   * service[nginx] action enable
-I, [2016-01-11T11:29:55.573992 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:55.576492 #5308]  INFO -- default-centos-67: Recipe: nginx::commons_dir
-I, [2016-01-11T11:29:55.627999 #5308]  INFO -- default-centos-67:  (up to date)
-I, [2016-01-11T11:29:55.672505 #5308]  INFO -- default-centos-67:   * directory[/var/log/nginx] action create
-I, [2016-01-11T11:29:56.288083 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:56.301585 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:56.338089 #5308]  INFO -- default-centos-67:   * directory[/var/run] action create (up to date)
-I, [2016-01-11T11:29:56.351591 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:56.374094 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:56.374094 #5308]  INFO -- default-centos-67:     - change mode from '' to '0755'
-I, [2016-01-11T11:29:56.380094 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:56.691634 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:56.703136 #5308]  INFO -- default-centos-67:     - restore selinux security context
-I, [2016-01-11T11:29:56.730139 #5308]  INFO -- default-centos-67:   * directory[/etc/nginx/sites-enabled] action create
-I, [2016-01-11T11:29:56.762143 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:56.762643 #5308]  INFO -- default-centos-67:     - change mode from '' to '0755'
-I, [2016-01-11T11:29:56.762643 #5308]  INFO -- default-centos-67:     - change owner from '' to 'root'
-I, [2016-01-11T11:29:57.085184 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:57.086684 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:57.132690 #5308]  INFO -- default-centos-67:   * directory[/etc/nginx/conf.d] action create (up to date)
-I, [2016-01-11T11:29:57.133690 #5308]  INFO -- default-centos-67: Recipe: nginx::commons_script
-I, [2016-01-11T11:29:57.292710 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:57.576746 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:57.576746 #5308]  INFO -- default-centos-67:     - update content in file /usr/sbin/nxensite from none to fa46fb
-I, [2016-01-11T11:29:57.576746 #5308]  INFO -- default-centos-67:     --- /usr/sbin/nxensite	2016-01-11 16:29:56.220017840 +0000
-I, [2016-01-11T11:29:57.576746 #5308]  INFO -- default-centos-67:     +++ /usr/sbin/.nxensite20160111-2671-umdrpw	2016-01-11 16:29:56.212013841 +0000
-I, [2016-01-11T11:29:57.576746 #5308]  INFO -- default-centos-67:     @@ -1 +1,39 @@
-I, [2016-01-11T11:29:57.576746 #5308]  INFO -- default-centos-67:     +#!/bin/sh -e
-I, [2016-01-11T11:29:57.576746 #5308]  INFO -- default-centos-67:     +
-I, [2016-01-11T11:29:57.577247 #5308]  INFO -- default-centos-67:     +SYSCONFDIR='/etc/nginx'
-I, [2016-01-11T11:29:57.577247 #5308]  INFO -- default-centos-67:     +
-I, [2016-01-11T11:29:57.588248 #5308]  INFO -- default-centos-67: +if [ -z $1 ]; then
-I, [2016-01-11T11:29:57.588248 #5308]  INFO -- default-centos-67:     +        echo "Which site would you like to enable?"
-I, [2016-01-11T11:29:57.590748 #5308]  INFO -- default-centos-67:     +        echo -n "Your choices are: "
-I, [2016-01-11T11:29:57.590748 #5308]  INFO -- default-centos-67:     +        ls $SYSCONFDIR/sites-available/* | \
-I, [2016-01-11T11:29:57.590748 #5308]  INFO -- default-centos-67:     +        sed -e "s,$SYSCONFDIR/sites-available/,,g" | xargs echo
-I, [2016-01-11T11:29:57.590748 #5308]  INFO -- default-centos-67:     +        echo -n "Site name? "
-I, [2016-01-11T11:29:57.590748 #5308]  INFO -- default-centos-67:     +        read SITENAME
-I, [2016-01-11T11:29:57.591248 #5308]  INFO -- default-centos-67:     +else
-I, [2016-01-11T11:29:57.637754 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:57.638254 #5308]  INFO -- default-centos-67:     +fi
-I, [2016-01-11T11:29:57.638254 #5308]  INFO -- default-centos-67:     +
-I, [2016-01-11T11:29:57.638254 #5308]  INFO -- default-centos-67:     +if [ $SITENAME = "default" ]; then
-I, [2016-01-11T11:29:57.638254 #5308]  INFO -- default-centos-67:     +        PRIORITY="000"
-I, [2016-01-11T11:29:57.644755 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:57.644755 #5308]  INFO -- default-centos-67:     +
-I, [2016-01-11T11:29:57.645255 #5308]  INFO -- default-centos-67:     +if [ -e $SYSCONFDIR/sites-enabled/$SITENAME -o \
-I, [2016-01-11T11:29:57.645255 #5308]  INFO -- default-centos-67:     +     -e $SYSCONFDIR/sites-enabled/"$PRIORITY"-"$SITENAME" ]; then
-I, [2016-01-11T11:29:57.645255 #5308]  INFO -- default-centos-67:     +        echo "This site is already enabled!"
-I, [2016-01-11T11:29:57.648756 #5308]  INFO -- default-centos-67:     +        exit 0
-I, [2016-01-11T11:29:57.649256 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:57.652256 #5308]  INFO -- default-centos-67:     +
-I, [2016-01-11T11:29:57.652756 #5308]  INFO -- default-centos-67:     +if ! [ -e $SYSCONFDIR/sites-available/$SITENAME ]; then
-I, [2016-01-11T11:29:57.656757 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:57.656757 #5308]  INFO -- default-centos-67:     +        exit 1
-I, [2016-01-11T11:29:57.665258 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:57.665758 #5308]  INFO -- default-centos-67:     +
-I, [2016-01-11T11:29:57.666258 #5308]  INFO -- default-centos-67:     +if [ $SITENAME = "default" ]; then
-I, [2016-01-11T11:29:57.666258 #5308]  INFO -- default-centos-67:     +        ln -sf $SYSCONFDIR/sites-available/$SITENAME \
-I, [2016-01-11T11:29:57.667758 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:57.676259 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:57.676259 #5308]  INFO -- default-centos-67:     +        ln -sf $SYSCONFDIR/sites-available/$SITENAME $SYSCONFDIR/sites-enabled/$SITENAME
-I, [2016-01-11T11:29:57.676259 #5308]  INFO -- default-centos-67:     +fi
-I, [2016-01-11T11:29:57.679760 #5308]  INFO -- default-centos-67:     +
-I, [2016-01-11T11:29:57.680760 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:57.689261 #5308]  INFO -- default-centos-67:     - change mode from '' to '0755'
-I, [2016-01-11T11:29:57.689261 #5308]  INFO -- default-centos-67:     - change owner from '' to 'root'
-I, [2016-01-11T11:29:58.219828 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:58.232330 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:58.288337 #5308]  INFO -- default-centos-67:   * template[/usr/sbin/nxdissite] action create
-I, [2016-01-11T11:29:58.319341 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:58.319841 #5308]  INFO -- default-centos-67:     - update content in file /usr/sbin/nxdissite from none to cc16ec
-I, [2016-01-11T11:29:58.320841 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:58.323841 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:58.324341 #5308]  INFO -- default-centos-67:     @@ -1 +1,30 @@
-I, [2016-01-11T11:29:58.324341 #5308]  INFO -- default-centos-67:     +#!/bin/sh -e
-I, [2016-01-11T11:29:58.324841 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:58.325342 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:58.325342 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:58.325342 #5308]  INFO -- default-centos-67:     +if [ -z $1 ]; then
-I, [2016-01-11T11:29:58.325342 #5308]  INFO -- default-centos-67:     +        echo "Which site would you like to disable?"
-I, [2016-01-11T11:29:58.325342 #5308]  INFO -- default-centos-67:     +        echo -n "Your choices are: "
-I, [2016-01-11T11:29:58.336343 #5308]  INFO -- default-centos-67: +        ls $SYSCONFDIR/sites-enabled/* | \
-I, [2016-01-11T11:29:58.336843 #5308]  INFO -- default-centos-67:     +        sed -e "s,$SYSCONFDIR/sites-enabled/,,g" | xargs echo
-I, [2016-01-11T11:29:58.336843 #5308]  INFO -- default-centos-67:     +        echo -n "Site name? "
-I, [2016-01-11T11:29:58.336843 #5308]  INFO -- default-centos-67:     +        read SITENAME
-I, [2016-01-11T11:29:58.336843 #5308]  INFO -- default-centos-67:     +else
-I, [2016-01-11T11:29:58.336843 #5308]  INFO -- default-centos-67:     +        SITENAME=$1
-I, [2016-01-11T11:29:58.336843 #5308]  INFO -- default-centos-67:     +fi
-I, [2016-01-11T11:29:58.336843 #5308]  INFO -- default-centos-67:     +
-I, [2016-01-11T11:29:58.336843 #5308]  INFO -- default-centos-67:     +if [ $SITENAME = "default" ]; then
-I, [2016-01-11T11:29:58.340843 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:58.341844 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:58.341844 #5308]  INFO -- default-centos-67:     +
-I, [2016-01-11T11:29:58.342344 #5308]  INFO -- default-centos-67:     +if ! [ -e $SYSCONFDIR/sites-enabled/$SITENAME -o \
-I, [2016-01-11T11:29:58.345844 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:58.345844 #5308]  INFO -- default-centos-67:     +        echo "This site is already disabled, or does not exist!"
-I, [2016-01-11T11:29:58.345844 #5308]  INFO -- default-centos-67:     +        exit 1
-I, [2016-01-11T11:29:58.346344 #5308]  INFO -- default-centos-67:     +fi
-I, [2016-01-11T11:29:58.346844 #5308]  INFO -- default-centos-67:     +
-I, [2016-01-11T11:29:58.346844 #5308]  INFO -- default-centos-67:     +if ! rm $SYSCONFDIR/sites-enabled/$SITENAME 2>/dev/null; then
-I, [2016-01-11T11:29:58.346844 #5308]  INFO -- default-centos-67:     +        rm -f $SYSCONFDIR/sites-enabled/"$PRIORITY"-"$SITENAME"
-I, [2016-01-11T11:29:58.346844 #5308]  INFO -- default-centos-67:     +fi
-I, [2016-01-11T11:29:58.388850 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:58.390850 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:58.390850 #5308]  INFO -- default-centos-67:     - change owner from '' to 'root'
-I, [2016-01-11T11:29:58.874411 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:58.887413 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:58.893914 #5308]  INFO -- default-centos-67: Recipe: nginx::commons_conf
-I, [2016-01-11T11:29:59.027931 #5308]  INFO -- default-centos-67:   * template[nginx.conf] action create
-I, [2016-01-11T11:29:59.028431 #5308]  INFO -- default-centos-67:     - update content in file /etc/nginx/nginx.conf from d364aa to a8c5fe
-I, [2016-01-11T11:29:59.028431 #5308]  INFO -- default-centos-67:     --- /etc/nginx/nginx.conf	2015-06-16 21:34:15.000000000 +0000
-I, [2016-01-11T11:29:59.034432 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:59.034932 #5308]  INFO -- default-centos-67:     @@ -1,43 +1,48 @@
-I, [2016-01-11T11:29:59.034932 #5308]  INFO -- default-centos-67:     -# For more information on configuration, see:
-I, [2016-01-11T11:29:59.034932 #5308]  INFO -- default-centos-67:     -#   * Official English Documentation: http://nginx.org/en/docs/
-I, [2016-01-11T11:29:59.045433 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:59.046933 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:59.047933 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:59.049433 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:59.049433 #5308]  INFO -- default-centos-67:      worker_processes  1;
-I, [2016-01-11T11:29:59.049433 #5308]  INFO -- default-centos-67:      
-I, [2016-01-11T11:29:59.049433 #5308]  INFO -- default-centos-67:      error_log  /var/log/nginx/error.log;
-I, [2016-01-11T11:29:59.051934 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:59.051934 #5308]  INFO -- default-centos-67:     -#error_log  /var/log/nginx/error.log  info;
-I, [2016-01-11T11:29:59.051934 #5308]  INFO -- default-centos-67:     -
-I, [2016-01-11T11:29:59.055934 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:59.056434 #5308]  INFO -- default-centos-67:      
-I, [2016-01-11T11:29:59.056434 #5308]  INFO -- default-centos-67:     -
-I, [2016-01-11T11:29:59.058435 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:59.058435 #5308]  INFO -- default-centos-67:     -    worker_connections  1024;
-I, [2016-01-11T11:29:59.058435 #5308]  INFO -- default-centos-67:     +  worker_connections  1024;
-I, [2016-01-11T11:29:59.058435 #5308]  INFO -- default-centos-67:      }
-I, [2016-01-11T11:29:59.058435 #5308]  INFO -- default-centos-67:      
-I, [2016-01-11T11:29:59.064435 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:59.065435 #5308]  INFO -- default-centos-67:      http {
-I, [2016-01-11T11:29:59.065435 #5308]  INFO -- default-centos-67:     -    include       /etc/nginx/mime.types;
-I, [2016-01-11T11:29:59.065435 #5308]  INFO -- default-centos-67:     -    default_type  application/octet-stream;
-I, [2016-01-11T11:29:59.065435 #5308]  INFO -- default-centos-67:      
-I, [2016-01-11T11:29:59.069936 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:59.070436 #5308]  INFO -- default-centos-67:     -                      '$status $body_bytes_sent "$http_referer" '
-I, [2016-01-11T11:29:59.071436 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:59.071936 #5308]  INFO -- default-centos-67:     +  include       /etc/nginx/mime.types;
-I, [2016-01-11T11:29:59.071936 #5308]  INFO -- default-centos-67:     +  default_type  application/octet-stream;
-I, [2016-01-11T11:29:59.075437 #5308]  INFO -- default-centos-67:  
-I, [2016-01-11T11:29:59.076937 #5308]  INFO -- default-centos-67: -    access_log  /var/log/nginx/access.log  main;
-I, [2016-01-11T11:29:59.076937 #5308]  INFO -- default-centos-67:      
-I, [2016-01-11T11:29:59.080937 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:59.081938 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:59.082438 #5308]  INFO -- default-centos-67:     +  access_log    /var/log/nginx/access.log;
-I, [2016-01-11T11:29:59.084438 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:59.085438 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:59.085438 #5308]  INFO -- default-centos-67:     -    keepalive_timeout  65;
-I, [2016-01-11T11:29:59.085438 #5308]  INFO -- default-centos-67:     +  sendfile on;
-I, [2016-01-11T11:29:59.085938 #5308]  INFO -- default-centos-67:     +  tcp_nopush on;
-I, [2016-01-11T11:29:59.085938 #5308]  INFO -- default-centos-67:     +  tcp_nodelay on;
-I, [2016-01-11T11:29:59.085938 #5308]  INFO -- default-centos-67:      
-I, [2016-01-11T11:29:59.085938 #5308]  INFO -- default-centos-67:     -    #gzip  on;
-I, [2016-01-11T11:29:59.086438 #5308]  INFO -- default-centos-67:     -    
-I, [2016-01-11T11:29:59.086438 #5308]  INFO -- default-centos-67:     -    # Load config files from the /etc/nginx/conf.d directory
-I, [2016-01-11T11:29:59.086438 #5308]  INFO -- default-centos-67:     -    # The default server is in conf.d/default.conf
-I, [2016-01-11T11:29:59.086438 #5308]  INFO -- default-centos-67:     -    include /etc/nginx/conf.d/*.conf;
-I, [2016-01-11T11:29:59.086438 #5308]  INFO -- default-centos-67:     +  keepalive_requests 100;
-I, [2016-01-11T11:29:59.086438 #5308]  INFO -- default-centos-67:     +  keepalive_timeout  65;
-I, [2016-01-11T11:29:59.086438 #5308]  INFO -- default-centos-67:      
-I, [2016-01-11T11:29:59.086438 #5308]  INFO -- default-centos-67:     +
-I, [2016-01-11T11:29:59.120442 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:59.120943 #5308]  INFO -- default-centos-67:     +  gzip_http_version 1.0;
-I, [2016-01-11T11:29:59.120943 #5308]  INFO -- default-centos-67:     +  gzip_comp_level 2;
-I, [2016-01-11T11:29:59.126443 #5308]  INFO -- default-centos-67: +  gzip_proxied any;
-I, [2016-01-11T11:29:59.129944 #5308]  INFO -- default-centos-67: +  gzip_vary off;
-I, [2016-01-11T11:29:59.132944 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:59.137445 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:59.137445 #5308]  INFO -- default-centos-67:     +  gzip_disable     "MSIE [1-6]\.";
-I, [2016-01-11T11:29:59.137445 #5308]  INFO -- default-centos-67:     +
-I, [2016-01-11T11:29:59.137445 #5308]  INFO -- default-centos-67:     +
-I, [2016-01-11T11:29:59.137945 #5308]  INFO -- default-centos-67:     +  variables_hash_max_size 1024;
-I, [2016-01-11T11:29:59.137945 #5308]  INFO -- default-centos-67:     +  variables_hash_bucket_size 64;
-I, [2016-01-11T11:29:59.137945 #5308]  INFO -- default-centos-67:     +  server_names_hash_bucket_size 64;
-I, [2016-01-11T11:29:59.137945 #5308]  INFO -- default-centos-67:     +  types_hash_max_size 2048;
-I, [2016-01-11T11:29:59.137945 #5308]  INFO -- default-centos-67:     +  types_hash_bucket_size 64;
-I, [2016-01-11T11:29:59.137945 #5308]  INFO -- default-centos-67:     +
-I, [2016-01-11T11:29:59.137945 #5308]  INFO -- default-centos-67:     +
-I, [2016-01-11T11:29:59.137945 #5308]  INFO -- default-centos-67:     +
-I, [2016-01-11T11:29:59.137945 #5308]  INFO -- default-centos-67:     +  include /etc/nginx/conf.d/*.conf;
-I, [2016-01-11T11:29:59.137945 #5308]  INFO -- default-centos-67:     +  include /etc/nginx/sites-enabled/*;
-I, [2016-01-11T11:29:59.386476 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:59.389477 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:59.425981 #5308]  INFO -- default-centos-67:   * template[/etc/nginx/sites-available/default] action create
-I, [2016-01-11T11:29:59.439483 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:59.439983 #5308]  INFO -- default-centos-67:     - update content in file /etc/nginx/sites-available/default from none to 7b3479
-I, [2016-01-11T11:29:59.440983 #5308]  INFO -- default-centos-67:     --- /etc/nginx/sites-available/default	2016-01-11 16:29:58.357085842 +0000
-I, [2016-01-11T11:29:59.441983 #5308]  INFO -- default-centos-67:     +++ /etc/nginx/sites-available/.default20160111-2671-1mjpoh3	2016-01-11 16:29:58.352083341 +0000
-I, [2016-01-11T11:29:59.447484 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:59.451485 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:59.451485 #5308]  INFO -- default-centos-67:     +  listen   80;
-I, [2016-01-11T11:29:59.451485 #5308]  INFO -- default-centos-67:     +  server_name  default-centos-67;
-I, [2016-01-11T11:29:59.459986 #5308]  INFO -- default-centos-67:     +
-I, [2016-01-11T11:29:59.459986 #5308]  INFO -- default-centos-67:     +  access_log  /var/log/nginx/localhost.access.log;
-I, [2016-01-11T11:29:59.459986 #5308]  INFO -- default-centos-67:     +
-I, [2016-01-11T11:29:59.460486 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:59.460986 #5308]  INFO -- default-centos-67:     +    root   /var/www/nginx-default;
-I, [2016-01-11T11:29:59.460986 #5308]  INFO -- default-centos-67:     +    index  index.html index.htm;
-I, [2016-01-11T11:29:59.460986 #5308]  INFO -- default-centos-67:     +  }
-I, [2016-01-11T11:29:59.463486 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:59.463986 #5308]  INFO -- default-centos-67:     - change mode from '' to '0644'
-I, [2016-01-11T11:29:59.463986 #5308]  INFO -- default-centos-67:     - change owner from '' to 'root'
-I, [2016-01-11T11:29:59.763524 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:59.774526 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:29:59.862037 #5308]  INFO -- default-centos-67:   * execute[nxensite default] action run
-I, [2016-01-11T11:29:59.865037 #5308]  INFO -- default-centos-67:     - execute /usr/sbin/nxensite default
-I, [2016-01-11T11:29:59.867537 #5308]  INFO -- default-centos-67: Recipe: nginx::default
-I, [2016-01-11T11:30:01.423235 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:30:01.426735 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:30:02.594384 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:30:02.596384 #5308]  INFO -- default-centos-67:     - reload service service[nginx]
-I, [2016-01-11T11:30:02.620887 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:30:02.620887 #5308]  INFO -- default-centos-67: Running handlers:
-I, [2016-01-11T11:30:02.623387 #5308]  INFO -- default-centos-67: Running handlers complete
-I, [2016-01-11T11:30:02.660392 #5308]  INFO -- default-centos-67: Chef Client finished, 23/32 resources updated in 04 minutes 15 seconds
-I, [2016-01-11T11:30:05.970812 #5308]  INFO -- default-centos-67: Finished converging <default-centos-67> (5m27.24s).
-I, [2016-01-11T11:30:05.971812 #5308]  INFO -- default-centos-67: -----> Setting up <default-centos-67>...
-I, [2016-01-11T11:30:05.976813 #5308]  INFO -- default-centos-67: Finished setting up <default-centos-67> (0m0.00s).
-I, [2016-01-11T11:30:05.977813 #5308]  INFO -- default-centos-67: -----> Verifying <default-centos-67>...
-I, [2016-01-11T11:30:05.980314 #5308]  INFO -- default-centos-67: Preparing files for transfer
-I, [2016-01-11T11:30:09.135714 #5308]  INFO -- default-centos-67: -----> Installing Busser (busser)
-I, [2016-01-11T11:30:13.511270 #5308]  INFO -- default-centos-67: Fetching: thor-0.19.0.gemFetching: thor-0.19.0.gem ( 18%)Fetching: thor-0.19.0.gem ( 36%)Fetching: thor-0.19.0.gem ( 54%)Fetching: thor-0.19.0.gem ( 71%)Fetching: thor-0.19.0.gem ( 89%)Fetching: thor-0.19.0.gem (100%)Fetching: thor-0.19.0.gem (100%)
-I, [2016-01-11T11:30:13.735798 #5308]  INFO -- default-centos-67: Successfully installed thor-0.19.0
-I, [2016-01-11T11:30:13.897319 #5308]  INFO -- default-centos-67: Fetching: busser-0.7.1.gemFetching: busser-0.7.1.gem ( 65%)Fetching: busser-0.7.1.gem (100%)Fetching: busser-0.7.1.gem (100%)
-I, [2016-01-11T11:30:13.988831 #5308]  INFO -- default-centos-67: Successfully installed busser-0.7.1
-I, [2016-01-11T11:30:13.989331 #5308]  INFO -- default-centos-67: 2 gems installed
-I, [2016-01-11T11:30:16.096098 #5308]  INFO -- default-centos-67: -----> Setting up Busser
-I, [2016-01-11T11:30:16.096098 #5308]  INFO -- default-centos-67: Creating BUSSER_ROOT in /tmp/verifier
-I, [2016-01-11T11:30:16.096098 #5308]  INFO -- default-centos-67: Creating busser binstub
-I, [2016-01-11T11:30:16.119101 #5308]  INFO -- default-centos-67: Installing Busser plugins: busser-serverspec
-I, [2016-01-11T11:30:22.878959 #5308]  INFO -- default-centos-67: Plugin serverspec installed (version 0.5.7)
-I, [2016-01-11T11:30:22.879459 #5308]  INFO -- default-centos-67: -----> Running postinstall for serverspec plugin
-I, [2016-01-11T11:30:25.073238 #5308]  INFO -- default-centos-67: Suite path directory /tmp/verifier/suites does not exist, skipping.
-I, [2016-01-11T11:30:25.107242 #5308]  INFO -- default-centos-67: Transferring files to <default-centos-67>
-I, [2016-01-11T11:30:26.164877 #5308]  INFO -- default-centos-67: -----> Running serverspec test suite
-I, [2016-01-11T11:30:26.186379 #5308]  INFO -- default-centos-67: -----> Installing Serverspec..
-I, [2016-01-11T11:30:29.411289 #5308]  INFO -- default-centos-67: Fetching: multi_json-1.11.2.gemFetching: multi_json-1.11.2.gem ( 62%)Fetching: multi_json-1.11.2.gem (100%)Fetching: multi_json-1.11.2.gem (100%)
-I, [2016-01-11T11:30:29.894350 #5308]  INFO -- default-centos-67: Fetching: rspec-support-3.4.1.gemFetching: rspec-support-3.4.1.gem ( 49%)Fetching: rspec-support-3.4.1.gem (100%)Fetching: rspec-support-3.4.1.gem (100%)
-I, [2016-01-11T11:30:30.330406 #5308]  INFO -- default-centos-67: Fetching: rspec-core-3.4.1.gemFetching: rspec-core-3.4.1.gem ( 11%)Fetching: rspec-core-3.4.1.gem ( 23%)Fetching: rspec-core-3.4.1.gem ( 34%)Fetching: rspec-core-3.4.1.gem ( 45%)Fetching: rspec-core-3.4.1.gem ( 57%)Fetching: rspec-core-3.4.1.gem ( 68%)Fetching: rspec-core-3.4.1.gem ( 79%)Fetching: rspec-core-3.4.1.gem ( 90%)Fetching: rspec-core-3.4.1.gem (100%)Fetching: rspec-core-3.4.1.gem (100%)
-I, [2016-01-11T11:30:30.782963 #5308]  INFO -- default-centos-67: Fetching: diff-lcs-1.2.5.gemFetching: diff-lcs-1.2.5.gem ( 32%)Fetching: diff-lcs-1.2.5.gem ( 65%)Fetching: diff-lcs-1.2.5.gem ( 99%)Fetching: diff-lcs-1.2.5.gem (100%)Fetching: diff-lcs-1.2.5.gem (100%)
-I, [2016-01-11T11:30:31.184514 #5308]  INFO -- default-centos-67: Fetching: rspec-expectations-3.4.0.gemFetching: rspec-expectations-3.4.0.gem ( 21%)Fetching: rspec-expectations-3.4.0.gem ( 43%)Fetching: rspec-expectations-3.4.0.gem ( 65%)Fetching: rspec-expectations-3.4.0.gem ( 86%)Fetching: rspec-expectations-3.4.0.gem (100%)Fetching: rspec-expectations-3.4.0.gem (100%)
-I, [2016-01-11T11:30:31.606068 #5308]  INFO -- default-centos-67: Fetching: rspec-mocks-3.4.1.gemFetching: rspec-mocks-3.4.1.gem ( 22%)Fetching: rspec-mocks-3.4.1.gem ( 43%)Fetching: rspec-mocks-3.4.1.gem ( 65%)Fetching: rspec-mocks-3.4.1.gem ( 87%)Fetching: rspec-mocks-3.4.1.gem (100%)Fetching: rspec-mocks-3.4.1.gem (100%)
-I, [2016-01-11T11:30:31.967113 #5308]  INFO -- default-centos-67: Fetching: rspec-3.4.0.gemFetching: rspec-3.4.0.gem (100%)Fetching: rspec-3.4.0.gem (100%)
-I, [2016-01-11T11:30:32.309657 #5308]  INFO -- default-centos-67: Fetching: rspec-its-1.2.0.gemFetching: rspec-its-1.2.0.gem (100%)Fetching: rspec-its-1.2.0.gem (100%)
-I, [2016-01-11T11:30:32.727710 #5308]  INFO -- default-centos-67: Fetching: net-ssh-3.0.2.gemFetching: net-ssh-3.0.2.gem (  9%)Fetching: net-ssh-3.0.2.gem ( 18%)Fetching: net-ssh-3.0.2.gem ( 27%)Fetching: net-ssh-3.0.2.gem ( 36%)Fetching: net-ssh-3.0.2.gem ( 45%)Fetching: net-ssh-3.0.2.gem ( 54%)Fetching: net-ssh-3.0.2.gem ( 63%)Fetching: net-ssh-3.0.2.gem ( 72%)Fetching: net-ssh-3.0.2.gem ( 81%)Fetching: net-ssh-3.0.2.gem ( 90%)Fetching: net-ssh-3.0.2.gem ( 99%)Fetching: net-ssh-3.0.2.gem (100%)Fetching: net-ssh-3.0.2.gem (100%)
-I, [2016-01-11T11:30:33.175767 #5308]  INFO -- default-centos-67: Fetching: net-scp-1.2.1.gemFetching: net-scp-1.2.1.gem ( 48%)Fetching: net-scp-1.2.1.gem ( 98%)Fetching: net-scp-1.2.1.gem (100%)Fetching: net-scp-1.2.1.gem (100%)
-I, [2016-01-11T11:30:33.548314 #5308]  INFO -- default-centos-67: Fetching: net-telnet-0.1.1.gemFetching: net-telnet-0.1.1.gem ( 92%)Fetching: net-telnet-0.1.1.gem (100%)Fetching: net-telnet-0.1.1.gem (100%)
-I, [2016-01-11T11:30:33.920362 #5308]  INFO -- default-centos-67: Fetching: sfl-2.2.gemFetching: sfl-2.2.gem (100%)Fetching: sfl-2.2.gem (100%)
-I, [2016-01-11T11:30:34.292909 #5308]  INFO -- default-centos-67: Fetching: specinfra-2.49.0.gemFetching: specinfra-2.49.0.gem ( 22%)Fetching: specinfra-2.49.0.gem ( 44%)Fetching: specinfra-2.49.0.gem ( 66%)Fetching: specinfra-2.49.0.gem ( 88%)Fetching: specinfra-2.49.0.gem (100%)Fetching: specinfra-2.49.0.gem (100%)
-I, [2016-01-11T11:30:34.653455 #5308]  INFO -- default-centos-67: Fetching: serverspec-2.29.0.gemFetching: serverspec-2.29.0.gem ( 43%)Fetching: serverspec-2.29.0.gem ( 86%)Fetching: serverspec-2.29.0.gem (100%)Fetching: serverspec-2.29.0.gem (100%)
-I, [2016-01-11T11:30:34.764969 #5308]  INFO -- default-centos-67: -----> serverspec installed (version 2.29.0)
-I, [2016-01-11T11:30:35.139516 #5308]  INFO -- default-centos-67: /opt/chef/embedded/bin/ruby -I/tmp/verifier/suites/serverspec -I/tmp/verifier/gems/gems/rspec-support-3.4.1/lib:/tmp/verifier/gems/gems/rspec-core-3.4.1/lib /opt/chef/embedded/bin/rspec --pattern /tmp/verifier/suites/serverspec/\*\*/\*_spec.rb --color --format documentation --default-path /tmp/verifier/suites/serverspec
-I, [2016-01-11T11:30:36.112140 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:30:36.112640 #5308]  INFO -- default-centos-67: Package "nginx"
-I, [2016-01-11T11:30:37.331795 #5308]  INFO -- default-centos-67: [32m  should be installed[0m
-I, [2016-01-11T11:30:37.333295 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:30:37.334295 #5308]  INFO -- default-centos-67: Service "nginx"
-I, [2016-01-11T11:30:37.427307 #5308]  INFO -- default-centos-67: [32m  should be enabled[0m
-I, [2016-01-11T11:30:37.686340 #5308]  INFO -- default-centos-67: [32m  should be running[0m
-I, [2016-01-11T11:30:37.688840 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:30:37.689340 #5308]  INFO -- default-centos-67: Port "80"
-I, [2016-01-11T11:30:37.782852 #5308]  INFO -- default-centos-67: [32m  should be listening[0m
-I, [2016-01-11T11:30:37.786352 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:30:37.786352 #5308]  INFO -- default-centos-67: File "/usr/share/nginx/www/index.html"
-I, [2016-01-11T11:30:37.963375 #5308]  INFO -- default-centos-67: [31m  should be file (FAILED - 1)[0m
-I, [2016-01-11T11:30:37.965875 #5308]  INFO -- default-centos-67:   content
-I, [2016-01-11T11:30:38.031884 #5308]  INFO -- default-centos-67: [31m    should match /Welcome to nginx/ (FAILED - 2)[0m
-I, [2016-01-11T11:30:38.227408 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:30:38.227908 #5308]  INFO -- default-centos-67: Failures:
-I, [2016-01-11T11:30:38.228409 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:30:38.228909 #5308]  INFO -- default-centos-67:   1) File "/usr/share/nginx/www/index.html" should be file
-I, [2016-01-11T11:30:38.229909 #5308]  INFO -- default-centos-67:      [31mFailure/Error: it { should be_file }[0m
-I, [2016-01-11T11:30:38.230409 #5308]  INFO -- default-centos-67:      [31m  expected `File "/usr/share/nginx/www/index.html".file?` to return true, got false[0m
-I, [2016-01-11T11:30:38.230409 #5308]  INFO -- default-centos-67:      [31m  /bin/sh -c test\ -f\ /usr/share/nginx/www/index.html[0m
-I, [2016-01-11T11:30:38.230409 #5308]  INFO -- default-centos-67:      [31m  [0m
-I, [2016-01-11T11:30:38.231409 #5308]  INFO -- default-centos-67:      [36m# /tmp/verifier/suites/serverspec/nginx_spec.rb:17:in `block (2 levels) in <top (required)>'[0m
-I, [2016-01-11T11:30:38.231409 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:30:38.231409 #5308]  INFO -- default-centos-67:   2) File "/usr/share/nginx/www/index.html" content should match /Welcome to nginx/
-I, [2016-01-11T11:30:38.231409 #5308]  INFO -- default-centos-67:      [31mFailure/Error: its(:content) { should match /Welcome to nginx/ }[0m
-I, [2016-01-11T11:30:38.231409 #5308]  INFO -- default-centos-67:      [31m  expected "" to match /Welcome to nginx/[0m
-I, [2016-01-11T11:30:38.231409 #5308]  INFO -- default-centos-67:      [31m  Diff:[0m[0m
-I, [2016-01-11T11:30:38.231409 #5308]  INFO -- default-centos-67:      [31m  [0m[34m@@ -1,2 +1,2 @@[0m
-I, [2016-01-11T11:30:38.231409 #5308]  INFO -- default-centos-67:      [31m  [0m[31m-/Welcome to nginx/[0m
-I, [2016-01-11T11:30:38.231409 #5308]  INFO -- default-centos-67:      [31m  [0m[32m+""[0m
-I, [2016-01-11T11:30:38.231409 #5308]  INFO -- default-centos-67:      [31m  [0m[0m
-I, [2016-01-11T11:30:38.231909 #5308]  INFO -- default-centos-67:      [31m  /bin/sh -c cat\ /usr/share/nginx/www/index.html\ 2\>\ /dev/null\ \|\|\ echo\ -n[0m
-I, [2016-01-11T11:30:38.231909 #5308]  INFO -- default-centos-67:      [31m  [0m
-I, [2016-01-11T11:30:38.231909 #5308]  INFO -- default-centos-67:      [36m# /tmp/verifier/suites/serverspec/nginx_spec.rb:18:in `block (2 levels) in <top (required)>'[0m
-I, [2016-01-11T11:30:38.294917 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:30:38.295417 #5308]  INFO -- default-centos-67: Finished in 1.95 seconds (files took 0.79822 seconds to load)
-I, [2016-01-11T11:30:38.295417 #5308]  INFO -- default-centos-67: [31m6 examples, 2 failures[0m
-I, [2016-01-11T11:30:38.295417 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:30:38.295417 #5308]  INFO -- default-centos-67: Failed examples:
-I, [2016-01-11T11:30:38.295417 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:30:38.295417 #5308]  INFO -- default-centos-67: [31mrspec /tmp/verifier/suites/serverspec/nginx_spec.rb:17[0m [36m# File "/usr/share/nginx/www/index.html" should be file[0m
-I, [2016-01-11T11:30:38.295417 #5308]  INFO -- default-centos-67: [31mrspec /tmp/verifier/suites/serverspec/nginx_spec.rb:18[0m [36m# File "/usr/share/nginx/www/index.html" content should match /Welcome to nginx/[0m
-I, [2016-01-11T11:30:38.295417 #5308]  INFO -- default-centos-67: 
-I, [2016-01-11T11:30:38.386429 #5308]  INFO -- default-centos-67: /opt/chef/embedded/bin/ruby -I/tmp/verifier/suites/serverspec -I/tmp/verifier/gems/gems/rspec-support-3.4.1/lib:/tmp/verifier/gems/gems/rspec-core-3.4.1/lib /opt/chef/embedded/bin/rspec --pattern /tmp/verifier/suites/serverspec/\*\*/\*_spec.rb --color --format documentation --default-path /tmp/verifier/suites/serverspec failed
-I, [2016-01-11T11:30:38.450937 #5308]  INFO -- default-centos-67: !!!!!! Ruby Script [/tmp/verifier/gems/gems/busser-serverspec-0.5.7/lib/busser/runner_plugin/../serverspec/runner.rb /tmp/verifier/suites/serverspec] exit code was 1
-E, [2016-01-11T11:30:38.749975 #5308] ERROR -- default-centos-67: Verify failed on instance <default-centos-67>.
-E, [2016-01-11T11:30:38.749975 #5308] ERROR -- default-centos-67: ------Exception-------
-E, [2016-01-11T11:30:38.749975 #5308] ERROR -- default-centos-67: Class: Kitchen::ActionFailed
-E, [2016-01-11T11:30:38.749975 #5308] ERROR -- default-centos-67: Message: SSH exited (1) for command: [sh -c '
-
-BUSSER_ROOT="/tmp/verifier"; export BUSSER_ROOT
-GEM_HOME="/tmp/verifier/gems"; export GEM_HOME
-GEM_PATH="/tmp/verifier/gems"; export GEM_PATH
-GEM_CACHE="/tmp/verifier/gems/cache"; export GEM_CACHE
-
-sudo -E /tmp/verifier/bin/busser test
-']
-E, [2016-01-11T11:30:38.750475 #5308] ERROR -- default-centos-67: ---Nested Exception---
-E, [2016-01-11T11:30:38.750475 #5308] ERROR -- default-centos-67: Class: Kitchen::Transport::SshFailed
-E, [2016-01-11T11:30:38.750475 #5308] ERROR -- default-centos-67: Message: SSH exited (1) for command: [sh -c '
-
-BUSSER_ROOT="/tmp/verifier"; export BUSSER_ROOT
-GEM_HOME="/tmp/verifier/gems"; export GEM_HOME
-GEM_PATH="/tmp/verifier/gems"; export GEM_PATH
-GEM_CACHE="/tmp/verifier/gems/cache"; export GEM_CACHE
-
-sudo -E /tmp/verifier/bin/busser test
-']
-E, [2016-01-11T11:30:38.750475 #5308] ERROR -- default-centos-67: ------Backtrace-------
-E, [2016-01-11T11:30:38.750475 #5308] ERROR -- default-centos-67: C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.4.2/lib/kitchen/verifier/base.rb:79:in `rescue in call'
-E, [2016-01-11T11:30:38.750475 #5308] ERROR -- default-centos-67: C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.4.2/lib/kitchen/verifier/base.rb:82:in `call'
-E, [2016-01-11T11:30:38.750475 #5308] ERROR -- default-centos-67: C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.4.2/lib/kitchen/instance.rb:398:in `block in verify_action'
-E, [2016-01-11T11:30:38.750475 #5308] ERROR -- default-centos-67: C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.4.2/lib/kitchen/instance.rb:488:in `call'
-E, [2016-01-11T11:30:38.750475 #5308] ERROR -- default-centos-67: C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.4.2/lib/kitchen/instance.rb:488:in `synchronize_or_call'
-E, [2016-01-11T11:30:38.750475 #5308] ERROR -- default-centos-67: C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.4.2/lib/kitchen/instance.rb:453:in `block in action'
-E, [2016-01-11T11:30:38.750475 #5308] ERROR -- default-centos-67: C:/opscode/chefdk/embedded/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
-E, [2016-01-11T11:30:38.750975 #5308] ERROR -- default-centos-67: C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.4.2/lib/kitchen/instance.rb:452:in `action'
-E, [2016-01-11T11:30:38.750975 #5308] ERROR -- default-centos-67: C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.4.2/lib/kitchen/instance.rb:394:in `verify_action'
-E, [2016-01-11T11:30:38.750975 #5308] ERROR -- default-centos-67: C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.4.2/lib/kitchen/instance.rb:341:in `block in transition_to'
-E, [2016-01-11T11:30:38.750975 #5308] ERROR -- default-centos-67: C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.4.2/lib/kitchen/instance.rb:340:in `each'
-E, [2016-01-11T11:30:38.750975 #5308] ERROR -- default-centos-67: C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.4.2/lib/kitchen/instance.rb:340:in `transition_to'
-E, [2016-01-11T11:30:38.750975 #5308] ERROR -- default-centos-67: C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.4.2/lib/kitchen/instance.rb:160:in `verify'
-E, [2016-01-11T11:30:38.750975 #5308] ERROR -- default-centos-67: C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.4.2/lib/kitchen/command.rb:176:in `public_send'
-E, [2016-01-11T11:30:38.750975 #5308] ERROR -- default-centos-67: C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.4.2/lib/kitchen/command.rb:176:in `block (2 levels) in run_action'
-E, [2016-01-11T11:30:38.750975 #5308] ERROR -- default-centos-67: ----------------------
+I, [2016-01-11T14:09:46.063514 #892]  INFO -- default-centos-67: -----> Destroying <default-centos-67>...
+I, [2016-01-11T14:10:03.794265 #892]  INFO -- default-centos-67: ==> default: Forcing shutdown of VM...
+I, [2016-01-11T14:10:05.459908 #892]  INFO -- default-centos-67: ==> default: Destroying VM and associated drives...
+I, [2016-01-11T14:10:06.575972 #892]  INFO -- default-centos-67: Vagrant instance <default-centos-67> destroyed.
+I, [2016-01-11T14:10:06.581972 #892]  INFO -- default-centos-67: Finished destroying <default-centos-67> (0m20.50s).
