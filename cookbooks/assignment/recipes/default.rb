@@ -5,9 +5,9 @@
 #
 
 # Cook community nginx recipe
-	include_recipe "nginx"
+include_recipe 'nginx'
 
 # Override nginx default index.html
-	template '/usr/share/nginx/html/index.html' do 
-		source 'index.html.erb'
-	end
+template '/usr/share/nginx/html/index.html' do
+  source 'index.html.erb'
+end
